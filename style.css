@@ -1,0 +1,27 @@
+* {
+	margin: 5px;
+}
+
+form {
+	display: table;
+}
+
+form p {
+	display: table-row;
+}
+
+form p > * {
+	display: table-cell;
+}
+
+.POST {
+    float: left;
+}
+
+.GET {
+    float: left;
+}
+
+body {
+    align-content: center;
+}
